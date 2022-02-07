@@ -8,14 +8,13 @@
 </div>
 </template>
 
-
 <script>
 import ProductCard from "./ProductCard";
 export default {
     components:{
         ProductCard
     }
-}
+};
 </script>
 
 <style>

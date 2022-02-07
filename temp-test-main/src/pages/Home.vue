@@ -1,9 +1,9 @@
 <template>
   <div>
-    <product-list />
+    <ProductList />
   </div>
-</template>
-
+</template>>
+ 
 <script>
 import ProductList from "../components/ProductList";
 export default {

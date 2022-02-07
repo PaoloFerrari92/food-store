@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand navbar-dark bg-dark">
       <div class="container">
         <div class="nav navbar-nav">
-            <router-link to="/" class="nav-tem nav-link active">Home</router-link>
+          <router-link to="/" class="nav-tem nav-link active">Home</router-link>
           <a class="nav-item nav-link" href="#">Product</a>
         </div>
 
@@ -17,28 +17,22 @@
               aria-haspopup="true"
               aria-expanded="false"
             >0 Cart</button>
-              <div @click="$event.stopPropagation()">
-
-           <div>
+              <div @click ="$event.stopPropagation()">
              <mini-cart />
            </div>
-            </div>
-          </div>
           </div>
          </div>
-
-    </nav>
-    
         </div>
+     </nav>
+   </div>
 </template>
 
 <script>
-import MiniCart from "./MiniCart"
+import MiniCart from "./MiniCart";
 export default {
   components: { MiniCart }
 };
 </script>
-    MiniCart
 
 <style>
 

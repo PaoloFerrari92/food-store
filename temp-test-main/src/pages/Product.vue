@@ -1,8 +1,8 @@
 <template>
-  <div class="row mt-5" v-if="product">
-    <div class="col-4">
-      <img src= "https://via.placeholder.com/150x100" class="w-100" />
-    </div>
+ <div class="row mt-5" v-if="product">
+  <div class="col-4">
+   <img src= "https://via.placeholder.com/150x100" class="w-100" />
+  </div>
     <div class="col-8">
       <h1> product title </h1>
       <h3> 23 €</h3>
@@ -13,11 +13,11 @@
       <p class="mt-4">descizione del prodotto</p>
     </div>
   </div>
-  </template>
+</template>
 
 <script>
 export default {
-  props: ['id'] 
+  props: ["id"], 
 };
 </script>
 

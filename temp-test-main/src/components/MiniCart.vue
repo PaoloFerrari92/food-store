@@ -8,20 +8,18 @@
       <div class="px-2 d-flex justify-content-between">
         <div>
           <strong>Product title</strong>
-          <br />1 x €23
+          <br /> 1 x €23
         </div>
         <div>
-          <a
-            href="#"
-            class="badge badge-secondary">remove</a>
+          <a href="#" class="badge badge-secondary">remove</a>
         </div>
       </div>
-      <hr />
     </div>
-
+    <hr />
+    
     <div class="d-flex justify-content-between">
       <span>Total: €23</span>
-      <a href="#" >Clear Cart</a>
+      <a href= "#" >Clear Cart</a>
     </div>
   </div>
 </template>
