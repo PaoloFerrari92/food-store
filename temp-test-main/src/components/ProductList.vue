@@ -18,7 +18,7 @@ computed: {
 },
 
     mounted(){
-        this.$store.dispatch('getProducts')
+        this.$store.dispatch('getProducts');
     }
 };
 </script>
